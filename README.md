@@ -1,0 +1,29 @@
+Assesment-Microservice-With-Kafka
+
+# Services :
+
+Order_Service
+Shipping_Service
+Alert_Service
+Reward_Service
+
+Database : MySQL
+Web Service : REST API
+Event-Broker: Kafka Server
+
+NB: All Microservices communication through Kafka Server
+
+
+# How To Execute:
+
+step 1 : First Send Order Placement request to an End Point in Order_Service: localhost:8092/api/order -
+ using Post Method
+
+step 2; Then Order Service sends an event order created to Shipping_Service and Alert_Service through Kafka Broker
+         and save the order object to Database MySQL
+
+step 3: Shipping_Service store the shipping detail for the order  to database and sends events to Alert_Service
+        and to Reward_Service(When Item is Delivered)
+
+step 4 : Reward_Service receives an even from Shipping_Service when a ship/item delivered. And Reward_Servicew adds
+         a reward amount and save the reward detail to database,then Sends event to Alert_Service
