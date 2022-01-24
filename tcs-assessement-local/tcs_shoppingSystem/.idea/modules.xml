@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rewardService/src/main/main.iml" filepath="$PROJECT_DIR$/rewardService/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shippingService/src/main/main1.iml" filepath="$PROJECT_DIR$/shippingService/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orderService/src/main/main2.iml" filepath="$PROJECT_DIR$/orderService/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alertService/src/main/main3.iml" filepath="$PROJECT_DIR$/alertService/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customerService/src/main/main4.iml" filepath="$PROJECT_DIR$/customerService/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orderService/src/test/test.iml" filepath="$PROJECT_DIR$/orderService/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alertService/src/test/test1.iml" filepath="$PROJECT_DIR$/alertService/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customerService/src/test/test2.iml" filepath="$PROJECT_DIR$/customerService/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rewardService/src/test/test3.iml" filepath="$PROJECT_DIR$/rewardService/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shippingService/src/test/test4.iml" filepath="$PROJECT_DIR$/shippingService/src/test/test4.iml" />
+    </modules>
+  </component>
+</project>
