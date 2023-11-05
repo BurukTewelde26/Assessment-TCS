@@ -51,3 +51,6 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9050BC6543D6441D9F4547F00B72C58F }}
           package: '*.jar'
+
+      - name: Standard Checkout
+        uses: actions/checkout@v2
